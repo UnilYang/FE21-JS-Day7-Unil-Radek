@@ -20,7 +20,7 @@ var swiper = new Swiper(".mySwiper", {
     imageAlt: 'Custom image',
   })
  }); 
-
+ document.documentElement.style.setProperty('--animate-duration', '2s');
 
 
 // const swiper = new Swiper('.swiper', {
