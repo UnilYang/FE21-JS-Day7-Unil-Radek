@@ -12,8 +12,8 @@ var swiper = new Swiper(".mySwiper", {
  document.getElementById("button").addEventListener('click', function(){
     //  console.log('ok')
     Swal.fire({
-    title: 'Sweet!',
-    text: 'Modal with a custom image.',
+    title: 'AMAZING',
+    text: 'sweetalert comes with interesting presets',
     imageUrl: './img/logo.png',
     imageWidth: 400,
     imageHeight: 200,
