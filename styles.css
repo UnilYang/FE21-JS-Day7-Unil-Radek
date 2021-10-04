@@ -137,5 +137,5 @@ body {
   object-fit: cover;
 }
 .animate__rubberBand {
-    --animate-duration: 5s;
+    --animate-duration: 5s!important;
   }
