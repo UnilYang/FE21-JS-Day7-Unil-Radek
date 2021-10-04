@@ -1,0 +1,179 @@
+header {
+    width: 100%;
+    height: 220px;
+}
+
+div.container {
+    margin: auto;
+    width: 1000px;
+    height: 1000px;
+    padding: 0 50px 0 50px;
+}
+
+div#head1 {
+    border-style: hidden;
+    background-color: rgb(252, 229, 229);
+    margin: auto;
+    width: 1000px;
+    height: 150px;
+}
+
+#logo1 {
+    position: absolute;
+    top: 17px;
+    width: 310px;
+    right: 150px;
+    padding-top: 15px;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+nav {
+    background-color: rgb(255, 0, 0);
+    width: 1000px;
+    height: 40px;
+}
+
+nav ul {
+    width: auto;
+    padding-right: 60px;
+    margin: 3px;
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
+
+nav ul li a {
+    padding: 12px 10px 12px 10px;
+    text-decoration: none;
+    color: #FFF;
+    text-align: right;
+}
+
+ul.navilist li a:hover {
+    color: cyan;
+    text-decoration-line: underline;
+}
+
+p#title1 {
+    font-size: 40px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-align: center;
+}
+
+table.phototable1 {
+    width: 1000px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center
+}
+
+table.phototable2 {
+    width: 550px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 220px;
+}
+
+#photo1 {
+    width: 550px;
+    height: 180px;
+    padding-left: 0px;
+}
+
+#photo2 {
+    width: 260px;
+    height: 180px;
+    padding-left: 0px;
+}
+
+#photo3 {
+    width: 260px;
+    height: 180px;
+    padding-left: 0px;
+}
+
+img#photo3 {
+    padding-left: 27px
+}
+
+div#foottext1 {
+    border-style: hidden;
+    background-color: rgb(252, 229, 229);
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+}
+
+.text3 {
+    padding-left: 28px;
+}
+
+#logo2 {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 415px;
+}
+
+footer p {
+    font-size: 15px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Swiper CSS */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 1%;
+    top: 13%;
+    margin-left: -80px;
+    margin-top: -150px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 80%;
+}
