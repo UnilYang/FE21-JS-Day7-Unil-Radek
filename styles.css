@@ -105,7 +105,7 @@ body {
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
+  font-size: 24em;
   background: #fff;
 
   /* Center slide text vertically */
@@ -129,3 +129,4 @@ body {
   height: 100%;
   object-fit: cover;
 }
+

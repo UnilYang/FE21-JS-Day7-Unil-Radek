@@ -8,7 +8,10 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
-  Swal.fire({
+  
+ document.getElementById("button").addEventListener('click', function(){
+    //  console.log('ok')
+    Swal.fire({
     title: 'Sweet!',
     text: 'Modal with a custom image.',
     imageUrl: './img/logo.png',
@@ -16,7 +19,7 @@ var swiper = new Swiper(".mySwiper", {
     imageHeight: 200,
     imageAlt: 'Custom image',
   })
- // document.getElementById("button").addEventListener("click",... //funzt leider nicht onclick. geht derzeit automatisch
+ }); //funzt leider nicht onclick. geht derzeit automatisch
 
 
 
