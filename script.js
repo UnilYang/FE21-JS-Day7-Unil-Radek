@@ -19,7 +19,7 @@ var swiper = new Swiper(".mySwiper", {
     imageHeight: 200,
     imageAlt: 'Custom image',
   })
- }); //funzt leider nicht onclick. geht derzeit automatisch
+ }); 
 
 
 
