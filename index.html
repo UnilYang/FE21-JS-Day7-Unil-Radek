@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">                   <!-- header section containing meta elements and site title-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <meta name="author" content="Radek Slowinski">
+    <title>First Webpage</title>
+</head>
+<body>
+    <header class="banner">             <!-- header section including logo, author and nav bar -->
+        <span>
+               <h3>Radek Slowinski- Full-Stack Web Developer</h3>
+        <img id="hlogo" src="./img/logo.png" alt="Logo" width="20%" height="80%">
+    </span>
+        <nav>               <!-- I decided to use nav tag instead of ul/li  because it seems to be cleaner coding-->
+          <a href="./index.html">Home</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./aboutme.html">About me</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>   <!-- main content of the page. contains a header and 3 figures which display img and description-->
+        <h1>This is my first Website :D</h1>
+      <figure>
+            <img src="./img/Phone.png" alt="Phone" width="100%" height="400em"> 
+            <figcaption id="fig1">Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</figcaption>
+            </figure>
+              <figure> <!-- unfortunately I failed to position all elements in a proper way. I guess either the figure tag is wrong or I messed up styling-->
+            <img id="leftside" id="atm" src="./img/Debit_card_ATM.jpg" alt="Debit_card_ATM" width="35%">
+           <figcaption id="fig2">Police are investigating three ATM explosions in two Florida counties</figcaption>
+        </figure>
+        <figure>
+            <img id="righside" src="./img/Taxify-Scooters.jpg" alt="Taxify-Scooters" width="35%">
+             <figcaption id="fig3">E-scooter firm Bolt pulls out of 12 cities</figcaption>
+            </figure>
+    </main>
+  <footer class="banner"><center> <!-- footer section with centered logo and author info-->
+        <img id="flogo" src="./img/logo.png" alt="Logo" width="20%" height="80%">
+        <p id="sub">Radek Slowinski- CodeFactory 2020</p>
+        </center></footer>
+</body>
+</html>
